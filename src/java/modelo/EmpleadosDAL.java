@@ -70,7 +70,7 @@ public class EmpleadosDAL {
   
             while (rs.next()) {
                 int id = rs.getInt("id");
-                String nombre = rs.getString("titulo");
+                String nombre = rs.getString("nombre ");
                 String apellido  = rs.getString("apellido");
                 String gmail = rs.getString ("gmail");
                 String puesto= rs.getString ("puesto");
